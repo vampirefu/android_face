@@ -11,15 +11,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ArrayList<String> list = new ArrayList();
-        ArrayList<String> listFilter = new ArrayList();
-        list.add("abb");
-        list.add("bbc");
-        list.add("cdd");
-        for(String i:list)
-        {
-            if(i.contains("a"))
-                listFilter.add(i);
-        }
     }
 }
