@@ -14,10 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 88b13942cbda223a45b84bdd0e886a993fb54b3f
 =======
+=======
+>>>>>>> parent of 88b1394... test upload
         ArrayList<String> list = new ArrayList();
         ArrayList<String> listFilter = new ArrayList();
         list.add("abb");
@@ -28,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
             if(i.contains("a"))
                 listFilter.add(i);
         }
+<<<<<<< HEAD
+>>>>>>> parent of 88b1394... test upload
+=======
 >>>>>>> parent of 88b1394... test upload
     }
 
