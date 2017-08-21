@@ -13,9 +13,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 88b13942cbda223a45b84bdd0e886a993fb54b3f
+=======
+        ArrayList<String> list = new ArrayList();
+        ArrayList<String> listFilter = new ArrayList();
+        list.add("abb");
+        list.add("bbc");
+        list.add("cdd");
+        for(String i:list)
+        {
+            if(i.contains("a"))
+                listFilter.add(i);
+        }
+>>>>>>> parent of 88b1394... test upload
     }
 
     void MaleClick(View v){}
