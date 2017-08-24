@@ -12,6 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
+
+=======
+>>>>>>> 88b13942cbda223a45b84bdd0e886a993fb54b3f
     }
 
     void MaleClick(View v){}
